@@ -1,6 +1,11 @@
 import streamlit as st
 
 from app_core import read_csv, show_certificates, send_all_emails
+import streamlit as st
+
+EMAIL_ADDRESS = st.secrets["EMAIL_ADDRESS"]
+SENDGRID_API_KEY = st.secrets["SENDGRID_API_KEY"]
+
 
 st.set_page_config(page_title="Certificate Automation", page_icon="🎓", layout="wide")
 

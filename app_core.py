@@ -4,8 +4,11 @@ import io
 import base64
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
-from email_config import EMAIL_ADDRESS, SENDGRID_API_KEY
 import streamlit as st
+
+EMAIL_ADDRESS = st.secrets["EMAIL_ADDRESS"]
+SENDGRID_API_KEY = st.secrets["SENDGRID_API_KEY"]
+
 
 def read_csv(uploaded_file):
     return pd.read_csv(uploaded_file)

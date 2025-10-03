@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Certificate Automation Tool
 
 This Streamlit app automates the process of generating personalized certificates from a CSV file containing participant names and emails, previewing them, and sending the certificates by email using SendGrid.
@@ -56,3 +57,6 @@ MIT License
 ---
 
 # Thank you for using the Certificate Automation Tool!
+=======
+# Hackmanthon_Auto_certificate_generator
+>>>>>>> 4f2aff4a20b36f0340d0dbf590a9a5a8349774f9

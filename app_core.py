@@ -75,7 +75,8 @@ def send_email(to_address, name, image_bytes):
         # Update progress bar
         progress_bar.progress((i + 1) / total)
 
-    def send_all_emails(df, st):
+
+def send_all_emails(df, st):
     progress_bar = st.progress(0)
     total = len(df)
     for i, row in enumerate(df.itertuples()):

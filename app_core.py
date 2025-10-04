@@ -85,9 +85,4 @@ def send_all_emails(df, st):
     st.success("All certificates sent successfully!")
 
 
-    if error_list:
-        st.error("Errors occurred during sending:")
-        for err in error_list:
-            st.write(err)
-    else:
-        st.success("All certificates sent successfully!")
+    

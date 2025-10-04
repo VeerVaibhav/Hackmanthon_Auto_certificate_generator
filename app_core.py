@@ -6,8 +6,12 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
 import streamlit as st
 
+import streamlit as st
 EMAIL_ADDRESS = st.secrets["EMAIL_ADDRESS"]
 SENDGRID_API_KEY = st.secrets["SENDGRID_API_KEY"]
+st.write("Loaded email:", EMAIL_ADDRESS)
+st.write("API key starts with:", SENDGRID_API_KEY[:6])
+
 
 
 def read_csv(uploaded_file):

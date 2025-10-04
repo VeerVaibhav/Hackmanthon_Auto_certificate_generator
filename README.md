@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Certificate Automation Tool
 
 This Streamlit app automates the process of generating personalized certificates from a CSV file containing participant names and emails, previewing them, and sending the certificates by email using SendGrid.
@@ -47,12 +47,6 @@ This Streamlit app automates the process of generating personalized certificates
 ## Security Note
 
 Make sure **not to commit your API keys** to GitHub. Use the `.gitignore` file to exclude `email_config.py` which contains sensitive information.
-
----
-
-## License
-
-MIT License
 
 ---
 

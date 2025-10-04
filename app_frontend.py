@@ -4,8 +4,7 @@ from app_core import read_csv, show_certificates, send_all_emails
 
 from app_core import EMAIL_ADDRESS, SENDGRID_API_KEY
 
-st.write("Loaded email:", EMAIL_ADDRESS)
-st.write("API key starts with:", SENDGRID_API_KEY[:6])
+
 
 
 
